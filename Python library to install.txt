@@ -1,0 +1,6 @@
+python -m venv venv
+.\venv\Scripts\activate
+python.exe -m pip install --upgrade pip
+pip install torch torchvision torchaudio
+pip install matplotlib opencv-python scipy pillow
+pip install ultralytics 
